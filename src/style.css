@@ -94,6 +94,43 @@ body {
 }
 
 /*############ Section Info #######################*/
+
+.info .container {
+    background-color: #F9FAF8;
+}
+
+.info .container h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info .container .cards {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.card-image {
+    max-width: 200px;
+    border: 5px solid blue;
+    border-radius: 15px;
+    display: block;
+    padding: 20px;
+    margin: auto;
+}
+
+.card-text {
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    color: #6F7174;
+}
+
 /*############ Blockquote #########################*/
 /*############ Section Call #######################*/
 /*############ Footer #############################*/
