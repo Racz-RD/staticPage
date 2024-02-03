@@ -132,5 +132,32 @@ body {
 }
 
 /*############ Blockquote #########################*/
+blockquote {
+    margin: 0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #E5E7EB;
+}
+  
+blockquote p {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+
+.quote-footer {
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: right;
+    font-weight: bolder;
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+  
 /*############ Section Call #######################*/
 /*############ Footer #############################*/
