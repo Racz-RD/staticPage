@@ -160,4 +160,36 @@ blockquote p {
 }
   
 /*############ Section Call #######################*/
+
+.call-to-action .container {
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 30px 80px;
+}
+
+.title-call {
+    color: #F9FAF8;
+}
+
+.text-call {
+    color: #E5E7EB
+}
+
+.call-btn {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    margin-top: 20px;
+    padding: 5px 25px 5px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.call-btn:hover { 
+    background-color: #0F4AA8;
+}
 /*############ Footer #############################*/
