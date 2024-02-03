@@ -193,3 +193,15 @@ blockquote p {
     background-color: #0F4AA8;
 }
 /*############ Footer #############################*/
+
+.page-footer .container {
+    background-color: #1F2937;
+    max-width: 1400px;
+}
+
+.page-footer .container p {
+    color: #F9FAF8;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
