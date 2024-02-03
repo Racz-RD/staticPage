@@ -53,6 +53,46 @@ body {
 }
 
 /*############ Hero ###############################*/
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+    align-items: center;
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 120px 30px 150px 30px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-btn {
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 5px 25px 5px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.hero-btn:hover {
+    background-color: #0F4AA8;
+}
+
+.hero-img {
+    max-width: 600px;
+}
+
 /*############ Section Info #######################*/
 /*############ Blockquote #########################*/
 /*############ Section Call #######################*/
