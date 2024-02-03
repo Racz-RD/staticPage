@@ -40,7 +40,7 @@ body {
 }
 
 .navbar a:hover {
-    color: lightblue;
+    color: #3882F6;
 }
 
 .navbar ul {
@@ -116,7 +116,7 @@ body {
 
 .card-image {
     max-width: 200px;
-    border: 5px solid blue;
+    border: 5px solid #3882F6;
     border-radius: 15px;
     display: block;
     padding: 20px;
