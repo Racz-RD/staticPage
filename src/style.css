@@ -1,0 +1,59 @@
+/*############ Global settings ####################*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*############ Navbar #############################*/
+
+.navbar, .hero, .page-footer {
+    background-color: #1F2937;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: lightblue;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+/*############ Hero ###############################*/
+/*############ Section Info #######################*/
+/*############ Blockquote #########################*/
+/*############ Section Call #######################*/
+/*############ Footer #############################*/
